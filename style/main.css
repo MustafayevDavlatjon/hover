@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish";
+}
+
+.link {
+    margin: .4em;
+    padding: 1em;
+    cursor: pointer;
+    background: #e1e1e1;
+    text-decoration: none;
+    color: #666;
+    display: inline-block;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    transition: 0.4s ease;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+.shrink:hover {
+    transform: scale(0.9);
+}
+
+.rotate:hover {
+    transform: rotate(4deg);
+} 
+
+.grow-rotate:hover {
+    transform: scale(1.1) rotate(4deg);
+}
+
+.sink:hover {
+    transform: translateY(8px);
+}
+
+.skew:hover {
+    transform: skew(-10deg);
+}
+
+.skew-forward:hover {
+    transform: skew(-10deg);
+}
+
+.forward:hover {
+    transform: translateX(8px);
+}
+
+.backward:hover {
+    transform: translateX(-8px);
+}
